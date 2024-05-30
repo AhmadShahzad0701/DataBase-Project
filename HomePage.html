@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmad Shahzad-221400077</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+
+    <center>
+    <h2>HTML_Tables And Forms</h2>
+    </center>
+
+    <table border="1px" id="table1">
+        <tr>
+            <th>Name</th>
+            <th>Registration #</th>
+            <th>Department</th>
+        </tr>
+
+        <tr>
+            <td>Ahmad</td>
+            <td>221400077</td>
+            <td>BS-CS</td>
+        </tr>
+
+        <tr>
+            <td> </td>
+            <td colspan="2">Sign Up</td>
+        </tr>
+    </table>
+
+<hr>
+
+<div id="form">
+<h2>Application For An Outing Survey</h2>
+
+<p> <b>Note:</b> Kindly help us out by filling this survey form</p>
+
+<fieldset>
+    <legend>Personal Details</legend>
+<label for="name">Name: </label>
+<input type="text" name="name" id="name">
+<br><br>
+
+<label for="address">Address: </label>
+<input type="text" name="address" id="address">
+<br><br>
+
+<label for="email">Email: </label>
+<input type="email" name="email" id="email">
+<br><br>
+
+<label for="no">Phone Number: </label>
+<input type="tel" name="no" id="no">
+<br><br>
+
+<label>Gender:</label><br>
+<input type="radio" name="gender" id="male">
+<label for="male">Male</label>
+<br>
+
+<input type="radio" name="gender" id="female">
+<label for="female">Female</label>
+<br>
+
+<input type="radio" name="gender" id="other">
+<label for="other">Others</label>
+<br><br>
+
+<label for="date">Date</label>
+<input type="date" name="date" id="date">
+
+</fieldset>
+<br>
+<fieldset>
+
+<p>Check All Those which are applicable</p>
+
+
+<input type="checkbox" name="monkey" id="monkey">
+<label for="family">I love monkey and all her stupid things she done daily</label>
+<br>
+
+<input type="checkbox" name="family" id="family">
+<label for="family">I love outings with family</label>
+<br>
+
+<input type="checkbox" name="friends" id="friends">
+<label for="friends">I love outings with friends</label>
+<br>
+
+<input type="checkbox" name="myself" id="myself">
+<label for="myself">I love outings with myself and enjoy my company</label>
+<br>
+
+<input type="checkbox" name="work" id="work">
+<label for="work">I work full-time and dont want to go for outings</label>
+
+</fieldset>
+<br>
+<fieldset>
+    <label for="edu">Education Level Completed: </label>
+    <select name="edu" id="edu">
+        <option value="uni">University</option>
+        <option value="inter">Intermediate</option>
+        <option value="matric">Matric</option>
+    </select>
+</fieldset>
+<br>
+
+<fieldset>
+    <legend>Essay Section</legend>
+    <p>In 50 words or more explain why you want to go.</p>   
+    <input type="text" name="essay-text" id="essay-text" placeholder="Your text here">
+
+    <p>Please upload contact details for 2 references.</p>
+    <input type="text" name="essay-text" id="essay-text" placeholder="Your text here">
+<br><br>
+    <label for="file">Upload Bank Statement and Medical Certificates here.</label>
+    <input type="button" name="file" id="file" value="Attach Files">
+<br>     
+
+</fieldset>
+<br>
+<center>
+<input type="button" name="send" id="send" value="Send Your Application">
+</center>
+
+</div>
+</body>
+</html>
